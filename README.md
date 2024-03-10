@@ -6,6 +6,9 @@
 
 Human Resources Management System is a command line based employee management software where you can track, add, update employees, their roles, and departments.
 
+Demo: https://youtu.be/ntqbDKYfPnc
+
+![alt text](./screenshot.png)
 
 ## Table of Contents 
 
