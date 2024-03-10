@@ -3,16 +3,14 @@ const mysql = require('mysql2');
 const util = require('util');
 require('dotenv').config();
 
-console.log(process.env)
-
 const db = mysql.createConnection(
     {
       host: 'localhost',
       // MySQL username,
-      user: process.env.USER,
+      user: process.env.DB_USER,
       // MySQL password
       password: '',
-      database: process.env.DATABASE
+      database: process.env.DB_DATABASE
     },
     // console.log(`Connected to the classlist_db database.`)
   );
